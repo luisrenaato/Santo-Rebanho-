@@ -1,0 +1,7 @@
+Santo Rebanho - Simulador 3D
+Abra o index.html no navegador (precisa de internet para carregar o three.js).
+
+Créditos
+- Casa de madeira: "Wooden Barn House with Open Shed" (MeshCraft3DArt), uso conforme a licença do autor.
+- Texturas: AmbientCG (CC0) - Wood059, Metal021, Concrete030, Weathered Brown Planks.
+- Vaca: modelo fornecido pelo cliente (cow.max), texturas originais do pacote.
