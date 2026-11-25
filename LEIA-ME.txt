@@ -1,7 +1,24 @@
-Santo Rebanho - Simulador 3D
-Abra o index.html no navegador (precisa de internet para carregar o three.js).
+Santo Rebanho - Simulador 3D (versão Fase B)
+
+Como executar
+- Abra o index.html no navegador, com internet (three.js vem do CDN cdnjs; há reserva no jsDelivr).
+- Sem internet ou sem WebGL, a interface abre e as etapas continuam navegáveis, com aviso no lugar do 3D.
+
+O que mudou na Fase B
+- Backup da versão anterior em backup/index.v1-antes-da-fase-B.html.
+- Tela de carregamento e tratamento de falha do CDN e do WebGL.
+- O ambiente da fazenda (grama, casa, árvores) é montado uma vez e reaproveitado; recursos 3D são liberados ao trocar de etapa.
+- Cabeçalho com ESPAÇO RESERVADO para o logotipo oficial (variável LOGO_SRC no início do script). O logotipo não foi recriado.
+- Paleta PROVISÓRIA em azul/ciano/verde-limão, aproximando os Pantone 3005 C, 298 C e 367 C. Confirmar os HEX oficiais com a Santo Rebanho.
+- Tipografia: Miriam Libre (títulos) e Inter (texto). Inter é substituta da Akkurat Pro, que é comercial e não foi incluída.
+- Transição em círculo ao abrir um processo; ícones lineares no lugar dos emojis; rótulo "Simulação simplificada" nas cenas.
+- Correções de texto: "Inovule o embrião"; removidos o link /contato/ e valores de equipamento sem fonte (MHz, CO2, UR).
+
+Pendências (ver diagnóstico)
+- Validar com a equipe técnica os tempos, temperaturas, a progressão de células por dia e os protocolos.
+- Logotipo oficial, HEX da marca, licenças das fontes, do modelo da casa e da vaca.
 
 Créditos
-- Casa de madeira: "Wooden Barn House with Open Shed" (MeshCraft3DArt), uso conforme a licença do autor.
+- Casa de madeira: "Wooden Barn House with Open Shed" (MeshCraft3DArt), conforme a licença do autor.
 - Texturas: AmbientCG (CC0) - Wood059, Metal021, Concrete030, Weathered Brown Planks.
 - Vaca: modelo fornecido pelo cliente (cow.max), texturas originais do pacote.
